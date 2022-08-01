@@ -8,7 +8,6 @@ const port = 1777
 
 app.use(cors())
 app.use(routes)
-
 app.listen(port, () => console.log(`SERVER RUNNING ON PORT: ${port}`))
 
 module.exports = app

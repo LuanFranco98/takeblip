@@ -6,5 +6,3 @@ const createGitService = () => {
 }
 
 module.exports = { createGitService }
-
-// createGitService().makeGithubRequest('https://api.github.com/users','takenet').then(console.log)

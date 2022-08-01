@@ -19,6 +19,3 @@ class GitController {
 }
 
 module.exports = GitController
-
-// const gitController = new GitController()
-// gitController.list({params: {}}).then(console.log)

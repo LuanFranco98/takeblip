@@ -7,5 +7,3 @@ const createGitReader = () => {
 }
 
 module.exports = { createGitReader }
-
-// createGitReader().listOldestNRepos().then(console.log)

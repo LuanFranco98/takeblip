@@ -7,6 +7,3 @@ const createGitController = () => {
 }
 
 module.exports = { createGitController }
-
-
-// createGitController().list({params: {}}).then(console.log)
