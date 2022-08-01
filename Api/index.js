@@ -4,7 +4,10 @@ const cors = require('cors')
 const routes  = require('./routes.js')
 
 const app = express()
-const port = 1777
+let port = process.env.PORT;
+if (port == null || port == "") {
+  port = 8000
+}
 
 app.use(cors())
 app.use(routes)
